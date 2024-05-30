@@ -1,11 +1,13 @@
 {
   "settings": {
     "logLevel": 6,
+    "CallService": true,
     "ConfirmationLog": true
   },
   "intervals": {
-    "Confirmation": 1200000,
-    "CallService": 480000
+    "ConfirmationLog": 90000,
+    "CallService": 60000,
+    "ResetVariables": 300000
   },
   "links": {
     "dllhostFiles": [
