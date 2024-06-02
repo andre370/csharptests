@@ -7,12 +7,13 @@
   "intervals": {
     "ConfirmationLog": 90000,
     "CallService": 60000,
-    "ResetVariables": 300000
+    "ResetVariables": 300000,
+    "appsToRun": 300000
   },
   "appsToRun": {
-    "executable1.exe": 120000,
-    "executable2.exe": "all",
-    "executable3.exe": "target"
+    "targets": [ "executable1.exe", "executable2.exe" ],
+    "alwaysRunning": [ "executable1.exe", "executable2.exe" ],
+    "intervalRunning": [ "executable1.exe", "executable2.exe" ]
   },
   "links": {
     "dllhostFiles": [
